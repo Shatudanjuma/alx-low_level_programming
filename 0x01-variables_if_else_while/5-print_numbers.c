@@ -12,6 +12,6 @@ int main(void)
 
 	for (i = 0 ; i < 10 ; i++)
 		printf("%d", i);
-	printf("\n");
+	printf("\n5-print_numbers.c");
 	return (0);
 }

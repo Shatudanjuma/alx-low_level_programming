@@ -10,6 +10,7 @@ int main(void)
 {
 	int digit1;
 	int digit2;
+
 	for (digit1 = 0x30; digit1 <= 0x39; digit1++)
 	{
 		for (digit2 = 0x30; digit2 <= 0x39; digit2++)

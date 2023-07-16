@@ -8,17 +8,20 @@
 
 int main(void)
 {
-	int d, s;
+	
+	int digit1;
+	int digit2;
 
-	for (d = 48; s <= 56; s++)
+	for (digit1 = 0x30; digit1 <= 0x39; digit1++)
 	{
-		for (d = 49; s <= 57; s++)
+		for (digit2 = 0x30; digit2 <= 0x39; digit2++)
 		{
-			if (s > d)
+			if (digit1 < digit2)
 			{
-				putchar(d);
-				putchar(s);
-				if (d != 56 || s != 57)
+				putchar(digit1);
+				putchar(digit2);
+
+				if ((digit1 >= 0x30 && digit1 < 0x38) && digit2 <= 0x39)
 				{
 					putchar(',');
 					putchar(' ');
@@ -26,6 +29,7 @@ int main(void)
 			}
 		}
 	}
+
 	putchar('\n');
 	return (0);
 }

@@ -8,7 +8,6 @@
 
 int main(void)
 {
-	
 	int digit1;
 	int digit2;
 
@@ -21,8 +20,7 @@ int main(void)
 				putchar(digit1);
 				putchar(digit2);
 
-				if ((digit1 >= 0x30 && digit1 < 0x38) && digit2 <= 0x39)
-				{
+				if ((digit1 >= 0x30 && digit1 < 0x38) && digit2 <= 0x39)		{
 					putchar(',');
 					putchar(' ');
 				}

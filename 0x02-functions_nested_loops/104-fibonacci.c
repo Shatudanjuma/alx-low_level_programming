@@ -7,7 +7,6 @@
  */
 
 int numLength(int num)
-	
 {
 	int length = 0;
 

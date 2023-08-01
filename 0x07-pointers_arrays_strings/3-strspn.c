@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _strspn - function that gets length of a prefix substring
- * @s: string to seach from
+ * _strspn - get the length of a prefix substring
+ * @s: string to search from
  * @accept: string to search
  * Return: number of characters matched 
  */

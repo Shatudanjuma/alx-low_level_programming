@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _strspn - get the length of a prefix substring
- * @s: string to search from
- * @accept: string to search
- * Return: number of characters matched 
- */
+*_strspn - get the length of a prefix substring
+*@s: string to search from
+*@accept: string to search
+*Return: Always 0 (success)
+*/
 
 unsigned int _strspn(char *s, char *accept)
 {

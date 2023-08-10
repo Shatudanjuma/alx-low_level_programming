@@ -6,8 +6,8 @@
  * string_nconcat - function to concatenate two strings
  * @s1: string 1
  * @s2: string 2
- * Return: concatenated string
  * @n: number of bytes to concatenate from s2
+ * Return: concatenated string
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)

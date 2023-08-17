@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - function that prints the opcodes 
+ * main - main function
  * @argc: argument count
  * @argv: argument vector
  * Return: Always 0.
